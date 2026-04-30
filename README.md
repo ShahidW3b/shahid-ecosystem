@@ -8,7 +8,7 @@ The platform presents real-world systems including booking platforms, admin dash
 
 ## 📸 Preview 
 
-<a href="https://axonyra.vercel.app/"><strong>➥ Live Demo</strong></a>
+<a href="[https://axonyra.vercel.app/](https://shahid-ecosystem.vercel.app/#research)"><strong>➥ Live Demo</strong></a>
 
 <img src="images/preview.png" alt="Preview" width="800"/>
 
