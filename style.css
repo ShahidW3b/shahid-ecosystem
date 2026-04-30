@@ -278,6 +278,37 @@ button {
   color: white;
 }
 
+.mobile-nav a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* icon style */
+.m-icon {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+
+.mobile-nav a:hover .m-icon {
+  background: white;
+  color: black;
+}
+
+.m-icon {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: white;
+  border: none;
+}
+
 html.dark .mobile-nav {
   background: rgba(15, 23, 42, 0.96);
   border-color: rgba(255, 255, 255, 0.18);
