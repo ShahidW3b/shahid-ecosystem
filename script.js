@@ -9,7 +9,7 @@ const systems = [
     researchUse:
       "Built around clear service packages, smooth booking flow, multilingual access, and internal request visibility.",
     caseStudyLabel: "View Live Product",
-    caseStudyHref: "https://crystal-nest-cleaning.vercel.app/",
+    caseStudyHref: "https://cystal-nest-clearing.vercel.app/",
     problem:
       "Most cleaning businesses lose bookings due to unclear service packages, slow inquiry handling, and lack of internal visibility.",
     solution:
