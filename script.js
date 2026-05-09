@@ -810,10 +810,10 @@ document.addEventListener("keydown", (event) => {
 contactForm.addEventListener("submit", async (event) => {
   event.preventDefault();
 
-  const name = contactForm.querySelector('input[name="name"]').value;
-  const email = contactForm.querySelector('input[name="email"]').value;
-  const company = document.getElementById("contactCompanyField").value;
-  const message = document.getElementById("contactMessageField").value;
+  const name = contactForm.querySelector('[name="Full Name"]').value;
+  const email = contactForm.querySelector('[name="Email"]').value;
+  const company = contactForm.querySelector('[name="Company"]').value;
+  const message = contactForm.querySelector('[name="Message"]').value;
 
   try {
     const response = await fetch("/api/send", {
