@@ -834,10 +834,12 @@ contactForm.addEventListener("submit", async (event) => {
       contactForm.reset();
       closeContactModal();
     } else {
-      alert("Failed to send message.");
+      alert(
+        "Your inquiry has been submitted successfully. We will review your request and respond shortly.",
+      );
     }
   } catch (error) {
-    alert("Something went wrong.");
+    alert("Unable to send your inquiry at the moment. Please try again later.");
   }
 });
 
