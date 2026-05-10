@@ -54,17 +54,17 @@ export default async function handler(req, res) {
   <div style="margin:0;padding:0;background:#07142b;font-family:Arial,sans-serif;color:#e5edf7;">
     <div style="max-width:640px;margin:0 auto;background:#0b1220;">
 
-      <!-- Logo Bar -->
-      <div style="background:#0b1220;text-align:center;padding:24px 20px;border-bottom:1px solid rgba(56,189,248,0.25);">
-        <div style="display:inline-block;background:#ffffff;padding:10px 14px;">
-          <img 
-            src="https://shahidw3b.com/logo/logo.png" 
-            width="82" 
-            alt="ShahidW3b Logo"
-            style="display:block;margin:0 auto;border:0;outline:none;text-decoration:none;"
-          />
-        </div>
-      </div>
+ <!-- Logo Bar -->
+<div style="background:#0b1220;text-align:center;padding:24px 0;">
+  <div style="background:#ffffff;width:100%;text-align:center;padding:18px 0;">
+    <img 
+      src="https://shahidw3b.com/logo/logo.png" 
+      width="90" 
+      alt="ShahidW3b Logo"
+      style="display:block;margin:0 auto;border:0;outline:none;text-decoration:none;"
+    />
+  </div>
+</div>
 
       <!-- Hero Banner -->
       <div style="background:linear-gradient(135deg,#0f2a4d,#07142b);padding:34px 28px;border-bottom:1px solid rgba(56,189,248,0.25);">
@@ -100,48 +100,29 @@ export default async function handler(req, res) {
         </p>
       </div>
 
-      <!-- Footer -->
-      <div style="background:#101827;padding:22px 24px;border-top:1px solid rgba(148,163,184,0.18);">
-        <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
-          <tr>
-            <td align="left" style="vertical-align:middle;">
-              <a href="https://shahidw3b.com" style="text-decoration:none;">
-                <div style="display:inline-block;background:#ffffff;padding:8px 10px;margin-bottom:10px;">
-                  <img 
-                    src="https://shahidw3b.com/logo/logo.png" 
-                    width="42"
-                    alt="ShahidW3b Logo"
-                    style="display:block;border:0;"
-                  />
-                </div>
-              </a>
+<!-- Footer -->
+<div style="background:#101827;padding:22px 24px;border-top:1px solid rgba(148,163,184,0.18);">
+  <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+    <tr>
+      <td align="left" style="vertical-align:middle;">
+        <a href="https://shahidw3b.com" style="text-decoration:none;">
+          <img 
+            src="https://shahidw3b.com/logo/logo.png" 
+            width="46"
+            alt="ShahidW3b Logo"
+            style="display:inline-block;vertical-align:middle;border-radius:10px;background:#ffffff;padding:6px;border:0;"
+          />
+        </a>
 
-              <div style="color:#94a3b8;font-size:13px;line-height:1.6;">
-                Systems. Intelligence. Research.
-              </div>
-            </td>
+        <span style="display:inline-block;vertical-align:middle;margin-left:12px;color:#94a3b8;font-size:13px;line-height:1.5;">
+          Systems. Intelligence. Research.
+        </span>
+      </td>
+    </tr>
+  </table>
+</div>
 
-            <td align="right" style="vertical-align:middle;">
-              <a href="https://axonyra.vercel.app/#home" style="text-decoration:none;">
-                <div style="display:inline-block;background:#ffffff;padding:8px 10px;margin-bottom:10px;">
-                  <img 
-                    src="https://shahidw3b.com/logo/axonyra.png"
-                    width="48"
-                    alt="Axonyra Logo"
-                    style="display:block;border:0;border-radius:40%;"
-                  />
-                </div>
-              </a>
-
-              <div style="color:#94a3b8;font-size:13px;line-height:1.6;text-align:right;">
-                AI Research & Cybersecurity
-              </div>
-            </td>
-          </tr>
-        </table>
-      </div>
-
-    </div>
+  </div>
   </div>
 `,
     });
