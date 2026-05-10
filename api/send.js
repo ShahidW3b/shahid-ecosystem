@@ -110,7 +110,7 @@ export default async function handler(req, res) {
             src="https://shahidw3b.com/logo/logo.png" 
             width="46"
             alt="ShahidW3b Logo"
-            style="vertical-align:middle;border-radius:10px;padding:6px;border:0;"
+            style="vertical-align:middle;border-radius:10px;background:#ffffff;padding:0px;border:0;"
           />
         </a>
 
