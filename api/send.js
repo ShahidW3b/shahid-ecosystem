@@ -55,7 +55,11 @@ export default async function handler(req, res) {
     <div style="max-width:720px;margin:0 auto;background:#0b1220;">
 
       <!-- Logo Bar -->
-      <div style="background:#101827;text-align:center;padding:28px 20px;">
+      <div style="
+        background:linear-gradient(135deg,#0f2a4d,#07142b);
+        text-align:center;
+        padding:28px 20px;
+      ">
         <img 
           src="https://shahidw3b.com/logo/logo.png" 
           width="90" 
