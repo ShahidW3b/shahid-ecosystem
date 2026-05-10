@@ -52,7 +52,7 @@ export default async function handler(req, res) {
       subject: "We received your inquiry | ShahidW3b",
       html: `
   <div style="margin:0;padding:0;background:#07142b;font-family:Arial,sans-serif;color:#e5edf7;">
-    <div style="max-width:720px;margin:0 auto;background:#0b1220;">
+    <div style="max-width:640px;margin:0 auto;background:#0b1220;">
 
      <!-- Logo Bar -->
 <div style="
@@ -75,14 +75,14 @@ export default async function handler(req, res) {
 </div>
 
       <!-- Hero Banner -->
-      <div style="background:linear-gradient(135deg,#0f2a4d,#07142b);padding:46px 36px;border-top:1px solid rgba(56,189,248,0.25);border-bottom:1px solid rgba(56,189,248,0.25);">
-        <h1 style="margin:0;color:#38bdf8;font-size:38px;line-height:1.1;font-style:italic;font-weight:800;">
+      <div style="background:linear-gradient(135deg,#0f2a4d,#07142b);padding:34px 28px;border-top:1px solid rgba(56,189,248,0.25);border-bottom:1px solid rgba(56,189,248,0.25);">
+        <h1 style="margin:0;color:#38bdf8;font-size:30px;line-height:1.1;font-style:italic;font-weight:800;">
           Your inquiry has been received
         </h1>
       </div>
 
       <!-- Main Message -->
-      <div style="padding:42px 36px;">
+      <div style="padding:32px 28px;">
         <h2 style="margin:0 0 22px;color:#dff6ff;font-size:28px;line-height:1.25;">
           You’re almost there, ${name}!
         </h2>
@@ -110,7 +110,7 @@ export default async function handler(req, res) {
       </div>
 
    <!-- Footer -->
-<div style="background:#101827;padding:28px 36px;border-top:1px solid rgba(148,163,184,0.18);">
+<div style="background:#101827;padding:22px 24px;border-top:1px solid rgba(148,163,184,0.18);">
   
   <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
     <tr>
