@@ -830,12 +830,12 @@ contactForm.addEventListener("submit", async (event) => {
     });
 
     if (response.ok) {
-      alert("Message sent successfully.");
+      alert("Your inquiry has been submitted successfully.");
       contactForm.reset();
       closeContactModal();
     } else {
       alert(
-        "Your inquiry has been submitted successfully. We will review your request and respond shortly.",
+        "Unable to send your inquiry at the moment. Please try again later.",
       );
     }
   } catch (error) {
