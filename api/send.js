@@ -123,7 +123,7 @@ export default async function handler(req, res) {
 
       <!-- Right Side -->
       <td align="right" style="vertical-align:middle;">
-        <a href="https://axonyra.com" style="text-decoration:none;">
+        <a href="https://axonyra.vercel.app/#home" style="text-decoration:none;">
           <img 
             src="https://axonyra.com/logo/logo.png"
             width="58"
@@ -139,7 +139,9 @@ export default async function handler(req, res) {
 
     </tr>
   </table>
+</div>
 
+</div>
 </div>
 `,
     });
