@@ -52,7 +52,7 @@ export default async function handler(req, res) {
       subject: "We received your inquiry | ShahidW3b",
       html: `
   <div style="margin:0;padding:0;background:#07142b;font-family:Arial,sans-serif;color:#e5edf7;">
-    <div style="max-width:640px;margin:0 auto;background:#0b1220;">
+    <div style="max-width:640px;margin:0 auto;background:#ffffff;">
 
      <!-- Logo Bar -->
   <div style="
@@ -74,6 +74,8 @@ export default async function handler(req, res) {
     "
   />
 </div>
+
+    <div style="background:#0b1220;">
 
       <!-- Hero Banner -->
       <div style="background:linear-gradient(135deg,#0f2a4d,#07142b);padding:34px 28px;border-top:1px solid rgba(56,189,248,0.25);border-bottom:1px solid rgba(56,189,248,0.25);">
@@ -123,11 +125,9 @@ export default async function handler(req, res) {
             src="https://shahidw3b.com/logo/logo.png" 
             width="52"
             alt="ShahidW3b Logo"
-            style="
-              display:block;
-              margin-bottom:10px;
-              mix-blend-mode:screen;
-              filter:brightness(1.05) contrast(1.08);"
+           style="
+            display:block;
+            margin-bottom:10px;"
           />
         </a>
 
@@ -143,12 +143,10 @@ export default async function handler(req, res) {
             src="https://shahidw3b.com/logo/axonyra.png"
             width="58"
             alt="Axonyra Logo"
-            style="
-             display:block;
-             margin-left:auto;
-             margin-bottom:10px;
-             mix-blend-mode:screen;
-             filter:brightness(1.05) contrast(1.08);"
+          style="
+          display:block;
+          margin-left:auto;
+          margin-bottom:10px;"
           />
         </a>
 
