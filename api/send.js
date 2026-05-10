@@ -54,23 +54,25 @@ export default async function handler(req, res) {
   <div style="margin:0;padding:0;background:#07142b;font-family:Arial,sans-serif;color:#e5edf7;">
     <div style="max-width:720px;margin:0 auto;background:#0b1220;">
 
-      <!-- Logo Bar -->
-      <div style="
-        background:linear-gradient(135deg,#0f2a4d,#07142b);
-        text-align:center;
-        padding:28px 20px;
-      ">
-        <img 
-          src="https://shahidw3b.com/logo/logo.png" 
-          width="90" 
-          alt="ShahidW3b Logo"
-          style="
-              display:block;
-              margin:0 auto;
-              mix-blend-mode:screen;
-              filter:brightness(1.05) contrast(1.08);"
-        />
-      </div>
+     <!-- Logo Bar -->
+<div style="
+  background:linear-gradient(135deg,#0f2a4d,#07142b);
+  text-align:center;
+  padding:28px 20px;
+">
+  <img 
+    src="https://shahidw3b.com/logo/logo.png" 
+    width="90" 
+    alt="ShahidW3b Logo"
+    style="
+      display:block;
+      margin:0 auto;
+      border:0;
+      outline:none;
+      text-decoration:none;
+    "
+  />
+</div>
 
       <!-- Hero Banner -->
       <div style="background:linear-gradient(135deg,#0f2a4d,#07142b);padding:46px 36px;border-top:1px solid rgba(56,189,248,0.25);border-bottom:1px solid rgba(56,189,248,0.25);">
