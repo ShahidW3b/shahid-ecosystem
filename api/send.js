@@ -52,7 +52,7 @@ export default async function handler(req, res) {
       subject: "We received your inquiry | ShahidW3b",
       html: `
   <div style="margin:0;padding:0;background:#07142b;font-family:Arial,sans-serif;color:#e5edf7;">
-    <div style="max-width:640px;margin:0 auto;background:#ffffff;">
+    <div style="max-width:640px;margin:0 auto;background:#0b1220;">
 
      <!-- Logo Bar -->
   <div style="
