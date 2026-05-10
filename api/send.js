@@ -94,42 +94,53 @@ export default async function handler(req, res) {
           Visit ShahidW3b
         </a>
 
-        <!-- Message Box -->
-        <div style="margin-top:36px;background:#111827;border:1px solid rgba(56,189,248,0.22);padding:26px;border-radius:4px;">
-          <p style="margin:0 0 10px;color:#dff6ff;font-size:17px;font-weight:bold;">
-            Your submitted message:
-          </p>
-          <p style="margin:0;color:#cbd5e1;font-size:15px;line-height:1.7;">
-            ${message}
-          </p>
-        </div>
-
         <p style="margin:26px 0 0;color:#94a3b8;font-size:14px;line-height:1.7;">
           This is an automated confirmation email. No further action is required.
         </p>
       </div>
 
-      <!-- Footer -->
-      <div style="background:#101827;padding:34px 36px;text-align:center;border-top:1px solid rgba(148,163,184,0.18);">
-        <img 
-          src="https://shahidw3b.com/logo/logo.png" 
-          width="72" 
-          alt="ShahidW3b Logo"
-          style="display:block;margin:0 auto 18px;"
-        />
+   <!-- Footer -->
+<div style="background:#101827;padding:28px 36px;border-top:1px solid rgba(148,163,184,0.18);">
+  
+  <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+    <tr>
 
-        <div style="color:#ffffff;font-weight:bold;font-size:18px;margin-bottom:6px;">
-          ShahidW3b
+      <!-- Left Side -->
+      <td align="left" style="vertical-align:middle;">
+        <a href="https://shahidw3b.com" style="text-decoration:none;">
+          <img 
+            src="https://shahidw3b.com/logo/logo.png" 
+            width="52"
+            alt="ShahidW3b Logo"
+            style="display:block;margin-bottom:10px;"
+          />
+        </a>
+
+        <div style="color:#94a3b8;font-size:13px;line-height:1.6;">
+          Systems. Intelligence. Research.
         </div>
+      </td>
 
-        <div style="color:#94a3b8;font-size:14px;line-height:1.7;">
-          Systems. Intelligence. Research.<br />
-          <a href="https://shahidw3b.com" style="color:#38bdf8;text-decoration:none;">shahidw3b.com</a>
+      <!-- Right Side -->
+      <td align="right" style="vertical-align:middle;">
+        <a href="https://axonyra.com" style="text-decoration:none;">
+          <img 
+            src="https://axonyra.com/logo/logo.png"
+            width="58"
+            alt="Axonyra Logo"
+            style="display:block;margin-left:auto;margin-bottom:10px;"
+          />
+        </a>
+
+        <div style="color:#94a3b8;font-size:13px;line-height:1.6;text-align:right;">
+          AI Research & Cybersecurity
         </div>
-      </div>
+      </td>
 
-    </div>
-  </div>
+    </tr>
+  </table>
+
+</div>
 `,
     });
 
