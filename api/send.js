@@ -60,7 +60,11 @@ export default async function handler(req, res) {
           src="https://shahidw3b.com/logo/logo.png" 
           width="90" 
           alt="ShahidW3b Logo"
-          style="display:block;margin:0 auto;"
+          style="
+              display:block;
+              margin:0 auto;
+              mix-blend-mode:screen;
+              filter:brightness(1.05) contrast(1.08);"
         />
       </div>
 
@@ -112,7 +116,11 @@ export default async function handler(req, res) {
             src="https://shahidw3b.com/logo/logo.png" 
             width="52"
             alt="ShahidW3b Logo"
-            style="display:block;margin-bottom:10px;"
+            style="
+              display:block;
+              margin-bottom:10px;
+              mix-blend-mode:screen;
+              filter:brightness(1.05) contrast(1.08);"
           />
         </a>
 
@@ -125,10 +133,15 @@ export default async function handler(req, res) {
       <td align="right" style="vertical-align:middle;">
         <a href="https://axonyra.vercel.app/#home" style="text-decoration:none;">
           <img 
-            src="https://axonyra.com/logo/logo.png"
+            src="https://shahidw3b.com/logo/axonyra.png"
             width="58"
             alt="Axonyra Logo"
-            style="display:block;margin-left:auto;margin-bottom:10px;"
+            style="
+             display:block;
+             margin-left:auto;
+             margin-bottom:10px;
+             mix-blend-mode:screen;
+             filter:brightness(1.05) contrast(1.08);"
           />
         </a>
 
