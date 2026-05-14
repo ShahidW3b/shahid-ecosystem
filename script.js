@@ -56,7 +56,7 @@ const systems = [
       "Built to organize bookings, service logic, and workflows through a clean dashboard with state-driven UI.",
     caseStudyLabel: "View Live Product",
     caseStudyHref:
-      "https://client-booking-dashboard-1ur9fk45j-shahabs-projects-654ac3d3.vercel.app/",
+      "https://client-booking-dashboard-phi.vercel.app/",
     problem:
       "Most dashboard demos focus on static UI and visuals, lacking real interaction logic, workflow structure, and data handling.",
     solution:
