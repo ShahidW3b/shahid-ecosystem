@@ -56,6 +56,7 @@ const systems = [
       "Built to organize bookings, service logic, and workflows through a clean dashboard with state-driven UI.",
     caseStudyLabel: "View Live Product",
     caseStudyHref: "https://client-booking-dashboard-phi.vercel.app/",
+
     problem:
       "Most dashboard demos focus on static UI and visuals, lacking real interaction logic, workflow structure, and data handling.",
     solution:
@@ -477,11 +478,14 @@ function renderResearch() {
             </div>
             <div class="badge">${paper.status}</div>
           </div>
+
           <p class="paper-summary">${paper.summary}</p>
+
           <div class="paper-actions">
             <button class="btn btn-elite publication-btn" data-open-paper="${paper.href}">
               <strong>${paper.cta}</strong><span>↗</span>
             </button>
+
             <button class="btn btn-secondary publication-btn" data-open-system-link="${paper.systemHref || "#systems"}">
               <strong>${paper.systemCta}</strong><span>→</span>
             </button>
@@ -491,25 +495,25 @@ function renderResearch() {
     )
     .join("");
 
-  document.querySelectorAll("[data-open-system-link]").forEach((btn) => {
+  document.querySelectorAll("[data-open-paper]").forEach((btn) => {
     btn.addEventListener("click", () => {
-      const link = btn.dataset.openSystemLink;
+      const link = btn.dataset.openPaper;
 
       if (link && link !== "#") {
-        window.open(link, "noopener,noreferrer");
-      } else {
-        scrollToSection("#systems");
+        window.open(link, "_blank", "noopener,noreferrer");
       }
     });
   });
 
-  document.querySelectorAll("[data-open-paper]").forEach((btn) => {
+  document.querySelectorAll("[data-open-system-link]").forEach((btn) => {
     btn.addEventListener("click", () => {
-      window.open(
-        "https://www.ijser.in/abstract.php?paperid=SE25604130052",
-        "_blank",
-        "noopener,noreferrer",
-      );
+      const link = btn.dataset.openSystemLink;
+
+      if (link && link !== "#systems") {
+        window.open(link, "_blank", "noopener,noreferrer");
+      } else {
+        scrollToSection("#systems");
+      }
     });
   });
 }
