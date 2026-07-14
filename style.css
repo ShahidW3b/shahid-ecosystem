@@ -965,6 +965,19 @@ section {
   );
   box-shadow: var(--shadow);
 }
+.founder-link {
+  display: inline-block;
+  border-radius: 28px;
+}
+
+.founder-portrait {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.founder-link:hover .founder-portrait {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
 .founder-portrait img {
   width: 100%;
   height: 100%;
